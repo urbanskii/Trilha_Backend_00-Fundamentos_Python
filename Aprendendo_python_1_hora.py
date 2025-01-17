@@ -203,4 +203,3 @@ for chave in linguas.values():
 
 for chave, valor in linguas.items():
     print(chave, valor)
-
