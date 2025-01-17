@@ -185,7 +185,6 @@ print(classificar(idades[0], 'Renzo'))
 for idade in idades:
     print(classificar(idade, 'Pessoa'))
 
-
 ## Dicionario
 
 linguas = {'pt': 'Portugues', 'en': 'Inglês'}
@@ -204,3 +203,4 @@ for chave in linguas.values():
 
 for chave, valor in linguas.items():
     print(chave, valor)
+
