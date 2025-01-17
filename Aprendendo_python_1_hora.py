@@ -51,3 +51,55 @@ print(5 > 6)
 print(5 != 6)
 print( 5 and 6)
 
+
+
+### Desvios logicos:
+
+idade = 17
+
+if idade < 18:
+    print(f'menor de idade: {idade}')
+    print('Acabou o if')
+elif idade >= 65:
+    print(f'pessoa idosa: {idade}')
+else:
+    print(f'maior de idade: (idade)')
+    
+
+
+## Funções
+
+def classificar(idade, nome):
+    
+    if idade < 18:
+        return f'{nome} é menor de idade: {idade}'
+    elif idade >= 65:
+        return f' {nome} é um idoso(a): {idade}'
+    else:
+        return f' {nome} é maior de idade: {idade}'
+
+print(classificar(17, "João"))
+print(classificar(21, "Carla"))
+print(classificar(68, "Pedro"))
+
+
+## Sequencias
+
+lista = [1, 4.5, True, []]
+print(type(lista), lista)
+
+## Acesso aos elementos
+
+print(lista[0])
+print(lista[1])
+
+print(len(lista))
+
+## Fatiamento
+
+print(lista[0:3])
+
+
+print(lista[:4])
+print(lista[-2])
+print(lista)
