@@ -184,5 +184,23 @@ print(classificar(idades[0], 'Renzo'))
 
 for idade in idades:
     print(classificar(idade, 'Pessoa'))
-=======
+
+## Dicionario
+
+linguas = {'pt': 'Portugues', 'en': 'Inglês'}
+print(linguas['pt'], linguas['en'])
+
+
+linguas['es'] = 'Espanhol'
+
+print(linguas)
+
+for chave in linguas.keys():
+    print(chave)
+
+for chave in linguas.values():
+    print(chave)
+
+for chave, valor in linguas.items():
+    print(chave, valor)
 
