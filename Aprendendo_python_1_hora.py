@@ -103,6 +103,7 @@ print(lista[0:3])
 print(lista[:4])
 print(lista[-2])
 print(lista)
+
 print(lista[:])
 
 
@@ -183,3 +184,5 @@ print(classificar(idades[0], 'Renzo'))
 
 for idade in idades:
     print(classificar(idade, 'Pessoa'))
+=======
+
