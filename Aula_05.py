@@ -1,4 +1,4 @@
-numero = 320
+numero = int(input('Digite o numero: '))
 centenas_str = dezenas_str = unidades_str = ''
 
 centenas_int, numero = divmod(numero, 100)
