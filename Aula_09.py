@@ -9,4 +9,3 @@ for _ in range(4):
     print(f'Número máximo encontrado até agora é: {maximo}')
 
     
-
