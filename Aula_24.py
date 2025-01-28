@@ -7,5 +7,3 @@ class Quadrado:
 
 quadrado = Quadrado(4)
 print(quadrado.lado, quadrado.calcular_area())
-
-
